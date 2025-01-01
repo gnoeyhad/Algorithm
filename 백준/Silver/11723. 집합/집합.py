@@ -20,7 +20,7 @@ for i in range(n):
         else:
             print(0)
     elif a == 'all':
-        s = set([i for i in range(1, 21)])
+        s = [i for i in range(1, 21)]
     elif a == 'empty':
         s = []
     elif a == 'remove':
